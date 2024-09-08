@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "next/core-web-vitals", 
+    "next/typescript",
+    "eslint:recommended",
+    "prettier",
+    "turbo"
+  ],
+  "plugins": ["only-warn", "perfectionist"],
+  "rules": {
+    "quotes": ["error", "double"],
+    "semi": ["error", "never"],
+    "indent": ["error", 2],
+    "no-unused-vars": "off",
+    "perfectionist/sort-imports": ["error", { "type": "line-length", "order": "desc" }]
+  }
+}
